@@ -1,6 +1,4 @@
 Title: Wedding Registry
-Date: 2017-08-10 19:30
-Modified: 2017-08-10 19:30
 Category: 
 Tags: 
 Slug: wedding-registry

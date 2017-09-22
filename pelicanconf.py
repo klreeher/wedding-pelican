@@ -1,16 +1,44 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import bulrush
+
+# THEME
+THEME = '../pelican-themes/bulrush/bulrush'
+JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
+JINJA_FILTERS = bulrush.FILTERS
+
+## Bulrush specific
+SITESUBTITLE = 'September 15, 2018'
+BULMAGEN = '../pelican-themes/bulrush/bulrush/static/bulma-gen/bulma.css'
+
 
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
 SITEURL = ''
 # contact
+
+PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = [
-        'google_embed'
+        'google_embed',
+        'assets',
+        'autopages',
+        'filetime_from_git',
+        'pelican-page-order'
 ]
 
+# PLUGIN CONFIG
+
+## Google Embed
 GMAPS_KEY = 'AIzaSyCUihKCI4VNe-FREn1hgfO9U98vGrhFLy0'
+
+## Autopages
+AUTHOR_PAGE_PATH = 'authors'
+CATEGORY_PAGE_PATH = 'categories'
+TAG_PAGE_PATH = 'tags'
+
+## Filetime From Git
+
 
 PATH = 'content'
 
@@ -27,7 +55,7 @@ AUTHOR_FEED_RSS = None
 
 # theme
 
-THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
+#THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
 
 # Blogroll
 # LINKS = (('You can modify those links in your config file', '#'),)
@@ -37,7 +65,7 @@ THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
 #          ('Another social link', '#'),)
 
 STATIC_PATHS = ['images']
-DEFAULT_PAGINATION = 0
+DEFAULT_PAGINATION = 1
 
 MAIL = 'wedding@reeher-palmer.net'
 
