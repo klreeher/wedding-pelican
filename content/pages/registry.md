@@ -5,7 +5,14 @@ Category:
 Tags: 
 Slug: wedding-registry
 Authors: Kate
-Summary: Wedding registry information.
+Summary: Information about where to find our wedding registry.
+Picture:  
 
 
-Elena hates the idea of wedding registries!
+You can find us registered at:
+
+[Amazon](https://www.amazon.com/wedding/share/reeher-palmer)
+
+[Target]()
+
+[Crate & Barrel]()

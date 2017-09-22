@@ -5,6 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
 SITEURL = ''
+# contact
+PLUGINS = [
+        'google_embed'
+]
+
+GMAPS_KEY = 'AIzaSyCUihKCI4VNe-FREn1hgfO9U98vGrhFLy0'
 
 PATH = 'content'
 
@@ -21,7 +27,7 @@ AUTHOR_FEED_RSS = None
 
 # theme
 
-THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/bulrush/bulrush"
+THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
 
 # Blogroll
 # LINKS = (('You can modify those links in your config file', '#'),)
@@ -33,6 +39,10 @@ THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/bulrush/bulrush"
 STATIC_PATHS = ['images']
 DEFAULT_PAGINATION = 0
 
+MAIL = 'wedding@reeher-palmer.net'
+
+COPYRIGHT = 'Copyright 2017 KLReeher'
+SHOW_COPYRIGHT = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
