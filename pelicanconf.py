@@ -26,13 +26,13 @@ SITENAME = u'Reeher-Palmer Wedding'
 SITEURL = ''
 # contact
 
-PLUGIN_PATHS = ['../pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
         'google_embed',
         'assets',
         'autopages',
         'filetime_from_git',
-        'pelican-page-order'
+        #'pelican-page-order'
 ]
 
 # PLUGIN CONFIG
