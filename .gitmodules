@@ -1,3 +1,6 @@
 [submodule "bulrush"]
 	path = bulrush
 	url = https://github.com/textbook/bulrush.git
+[submodule "google_embed"]
+	path = google_embed
+	url = https://github.com/josh146/google_embed.git

@@ -7,7 +7,7 @@ TIMEZONE = "America/Chicago"
 DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 
 # THEME
-THEME = '../pelican-themes/bulrush/bulrush'
+THEME = 'bulrush/bulrush'
 JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
 JINJA_FILTERS = bulrush.FILTERS
 
