@@ -2,15 +2,41 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
+TIMEZONE = "America/Chicago"
+DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+
+# THEME
+THEME = 'pelican-themes/graymill'
+# basic, bootlex, cebong, graymill, monospace,
+#SITETAGLINE = 'Join Us September 15, 2018'
+
+
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 # contact
+
+PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
-        'google_embed'
+        #'google_embed',
+        'assets',
+        'autopages',
+        'filetime_from_git',
+        #'pelican-page-order'
 ]
 
+# PLUGIN CONFIG
+
+## Google Embed
 GMAPS_KEY = 'AIzaSyCUihKCI4VNe-FREn1hgfO9U98vGrhFLy0'
+
+## Autopages
+AUTHOR_PAGE_PATH = 'authors'
+CATEGORY_PAGE_PATH = 'categories'
+TAG_PAGE_PATH = 'tags'
+
+## Filetime From Git
+
 
 PATH = 'content'
 
@@ -26,20 +52,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # theme
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (('Home', SITEURL), 
+	('Wedding & Reception','../pages/wedding-reception.html'),
+	('Registry','../pages/wedding-registry.html'))
 
-THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
-
-# Blogroll
-# LINKS = (('You can modify those links in your config file', '#'),)
-
-# Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
-
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_SUMMARY = True
 STATIC_PATHS = ['images']
-DEFAULT_PAGINATION = 0
+DEFAULT_PAGINATION = 5
 
 MAIL = 'wedding@reeher-palmer.net'
+DIRECT_TEMPLATES = ['index']
 
 COPYRIGHT = 'Copyright 2017 KLReeher'
 SHOW_COPYRIGHT = True

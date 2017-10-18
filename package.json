@@ -1,0 +1,19 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "description": "pelican static site for reeher-palmer wedding 2k18",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klreeher/wedding-pelican.git"
+  },
+  "author": "klreeher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klreeher/wedding-pelican/issues"
+  },
+  "homepage": "https://github.com/klreeher/wedding-pelican#readme"
+}
