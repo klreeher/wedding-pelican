@@ -1,9 +1,6 @@
 [submodule "bulrush"]
 	path = bulrush
 	url = https://github.com/textbook/bulrush.git
-[submodule "google_embed"]
-	path = google_embed
-	url = https://github.com/josh146/google_embed.git
 [submodule "pelican-plugins"]
 	path = pelican-plugins
 	url = https://github.com/getpelican/pelican-plugins.git
