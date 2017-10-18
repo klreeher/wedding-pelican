@@ -3,6 +3,9 @@
 from __future__ import unicode_literals
 import bulrush
 
+TIMEZONE = "America/Chicago"
+DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+
 # THEME
 THEME = '../pelican-themes/bulrush/bulrush'
 JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
