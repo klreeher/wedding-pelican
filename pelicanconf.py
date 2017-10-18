@@ -9,9 +9,14 @@ JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
 JINJA_FILTERS = bulrush.FILTERS
 
 ## Bulrush specific
-SITESUBTITLE = 'September 15, 2018'
-BULMAGEN = '../pelican-themes/bulrush/bulrush/static/bulma-gen/bulma.css'
-
+SITESUBTITLE = 'Join Us September 15, 2018'
+### Static files
+#STATIC_PATHS = [
+#    '../pelican-themes/bulrush/bulrush/static/bulma-gen'
+#]
+#EXTRA_PATH_METADATA = {
+#    'static/custom.css': {'path': 'bulma.css'}
+#}
 
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
