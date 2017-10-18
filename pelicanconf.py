@@ -7,23 +7,14 @@ TIMEZONE = "America/Chicago"
 DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 
 # THEME
-THEME = 'bulrush/bulrush'
-JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
-JINJA_FILTERS = bulrush.FILTERS
+THEME = 'pelican-themes/graymill'
+# basic, bootlex, cebong, graymill, monospace,
+SITEDESCRIPTION = 'Join Us September 15, 2018'
 
-## Bulrush specific
-SITESUBTITLE = 'Join Us September 15, 2018'
-### Static files
-#STATIC_PATHS = [
-#    '../pelican-themes/bulrush/bulrush/static/bulma-gen'
-#]
-#EXTRA_PATH_METADATA = {
-#    'static/custom.css': {'path': 'bulma.css'}
-#}
 
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 # contact
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -62,18 +53,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # theme
+DISPLAY_PAGES_ON_MENU = True
+MENUITEMS = (('Home', SITEURL), ('Wedding & Reception','pages/wedding-reception.html'))
 
-#THEME = "C:/Users/Kate Reeher/ownCloud/pelican-themes/html5-dopetrope"
-
-# Blogroll
-# LINKS = (('You can modify those links in your config file', '#'),)
-
-# Social widget
-# SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
-
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_SUMMARY = True
 STATIC_PATHS = ['images']
-DEFAULT_PAGINATION = 1
+DEFAULT_PAGINATION = 5
 
 MAIL = 'wedding@reeher-palmer.net'
 
