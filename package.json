@@ -1,7 +1,7 @@
 {
   "name": "wedding",
   "version": "1.0.0",
-  "description": "perlican static site for reeher-palmer wedding 2k18",
+  "description": "pelican static site for reeher-palmer wedding 2k18",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

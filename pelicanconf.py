@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import bulrush
 
 TIMEZONE = "America/Chicago"
 DEFAULT_DATE_FORMAT = '%a %d %B %Y'
@@ -9,7 +8,7 @@ DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 # THEME
 THEME = 'pelican-themes/graymill'
 # basic, bootlex, cebong, graymill, monospace,
-SITEDESCRIPTION = 'Join Us September 15, 2018'
+#SITETAGLINE = 'Join Us September 15, 2018'
 
 
 AUTHOR = u'Kate'
@@ -53,8 +52,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # theme
-DISPLAY_PAGES_ON_MENU = True
-MENUITEMS = (('Home', SITEURL), ('Wedding & Reception','pages/wedding-reception.html'))
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = (('Home', SITEURL), 
+	('Wedding & Reception','../pages/wedding-reception.html'),
+	('Registry','../pages/wedding-registry.html'))
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_SUMMARY = True
@@ -62,6 +63,7 @@ STATIC_PATHS = ['images']
 DEFAULT_PAGINATION = 5
 
 MAIL = 'wedding@reeher-palmer.net'
+DIRECT_TEMPLATES = ['index']
 
 COPYRIGHT = 'Copyright 2017 KLReeher'
 SHOW_COPYRIGHT = True

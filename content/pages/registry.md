@@ -9,8 +9,6 @@ Picture:
 
 You can find us registered at:
 
-[Amazon](https://www.amazon.com/wedding/share/reeher-palmer)
-
-[Target]()
-
-[Crate & Barrel]()
+- [Amazon](https://www.amazon.com/wedding/share/reeher-palmer)
+- [Target]()
+- [Crate & Barrel]()
