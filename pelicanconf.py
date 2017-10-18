@@ -28,7 +28,7 @@ SITEURL = ''
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
-        'google_embed',
+        #'google_embed',
         'assets',
         'autopages',
         'filetime_from_git',
