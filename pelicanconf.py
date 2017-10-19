@@ -13,7 +13,7 @@ THEME = 'pelican-themes/graymill'
 
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://klreeher.github.io/wedding-pelican'
 # contact
 
 PLUGIN_PATHS = ['pelican-plugins']
