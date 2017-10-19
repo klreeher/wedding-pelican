@@ -1,9 +1,3 @@
-[submodule "bulrush"]
-	path = bulrush
-	url = https://github.com/textbook/bulrush.git
-[submodule "pelican-plugins"]
-	path = pelican-plugins
-	url = https://github.com/getpelican/pelican-plugins.git
-[submodule "pelican-themes"]
-	path = pelican-themes
-	url = https://github.com/getpelican/pelican-themes.git
+[submodule "graymill"]
+	path = pelican-themes/graymill
+	url = https://github.com/rn4ir/graymill.git

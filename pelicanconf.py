@@ -13,7 +13,7 @@ THEME = 'pelican-themes/graymill'
 
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://klreeher.github.io/wedding-pelican'
 # contact
 
 PLUGIN_PATHS = ['pelican-plugins']
@@ -54,8 +54,8 @@ AUTHOR_FEED_RSS = None
 # theme
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (('Home', SITEURL), 
-	('Wedding & Reception','../pages/wedding-reception.html'),
-	('Registry','../pages/wedding-registry.html'))
+	('Wedding & Reception','~/pages/wedding-reception.html'),
+	('Registry','~/pages/wedding-registry.html'))
 
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_SUMMARY = True
