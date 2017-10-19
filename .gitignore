@@ -1,2 +1,8 @@
 pelican-themes/** 
 !pelican-themes/graymill/**
+
+pelican-plugins/**
+!pelican-plugins/assets/**
+!pelican-plugins/autopages/**
+!pelican-plugins/filetime_from_git/**
+
