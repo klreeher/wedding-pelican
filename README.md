@@ -1,5 +1,7 @@
 # wedding
 
+[![Build Status](https://travis-ci.org/klreeher/wedding-pelican.svg?branch=dev)](https://travis-ci.org/klreeher/wedding-pelican)
+
 ## known issues:
 
 - github keeps resetting my custom url on deploy SMDH
