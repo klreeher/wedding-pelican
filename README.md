@@ -1,20 +1,11 @@
 # wedding
 
-## TODO:
+## known issues:
 
-### content
-- better planning re: rsvp form
+- github keeps resetting my custom url on deploy SMDH
 
-- ideal rsvp form:
-    * you enter the name on the invite
-    * you get either "yay we know you come on in" or "sorry, we don't know you"
-    * 
+## credits: 
 
-### design
-- how do you customize bulrush's colors?
-- why is text formatting so weird on wedding&reception page
-- 
+greatly appreciated the following:
 
-### publishing
-- best practice for publishing output to server
-- subdomain for wedding site or nah?
+- [sumnerevans' guide to setting up pelican to auto deploy to github pages](https://sumnerevans.com/2017-09-11-pelican-auto-deploy-github-pages.html)
