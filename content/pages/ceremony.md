@@ -10,10 +10,14 @@ The wedding ceremony will be held at [St. Mark's Episcopal Cathedral](http://our
 
 <!-- MarkdownTOC -->
 
+- [Ceremony Time And Location](#ceremony-time-and-location)
 - [Parking & Construction:](#parking--construction)
 - [Accessibility](#accessibility)
 
 <!-- /MarkdownTOC -->
+
+<a name="ceremony-time-and-location"></a>
+## Ceremony Time And Location
 
 To enter the Cathedral, you can go up the stairs to enter the front of the Cathedral through the big main doors that face Oak Grove Street and Loring Park. Alternatively, you can enter through the office door on the east side of the building, off the parking lot and facing out to Oak Grove Street and Loring Park. This entry has many fewer stairs!
 

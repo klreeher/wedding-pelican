@@ -12,10 +12,15 @@ The reception will follow the wedding ceremony at [Bryant Lake Regional Park](ht
 
 <!-- MarkdownTOC -->
 
+- [Reception Time & Location](#reception-time--location)
 - [Menu](#menu)
 
 <!-- /MarkdownTOC -->
 
+<a name="reception-time--location"></a>
+
+<a name="reception-time--location"></a>
+## Reception Time & Location
 
 > 2:00 PM Central Time
 > 
