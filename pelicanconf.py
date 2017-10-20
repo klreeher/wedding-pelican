@@ -54,7 +54,8 @@ AUTHOR_FEED_RSS = None
 # theme
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = (('Home', "/"), 
-	('Wedding & Reception','/pages/wedding-reception.html'),
+	('Wedding Ceremony','/pages/ceremony.html'),
+	('Wedding Reception','/pages/reception.html'),
 	('Registry','/pages/wedding-registry.html'))
 
 DISPLAY_CATEGORIES_ON_MENU = False
