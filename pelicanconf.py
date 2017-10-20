@@ -53,7 +53,7 @@ AUTHOR_FEED_RSS = None
 
 # theme
 DISPLAY_PAGES_ON_MENU = False
-MENUITEMS = (('Home', SITEURL), 
+MENUITEMS = (('Home', "/"), 
 	('Wedding & Reception','/pages/wedding-reception.html'),
 	('Registry','/pages/wedding-registry.html'))
 
