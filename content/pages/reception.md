@@ -22,14 +22,6 @@ The reception will follow the wedding ceremony at [Bryant Lake Regional Park](ht
 <a name="reception-time--location"></a>
 ## Reception Time & Location
 
-> 2:00 PM Central Time
-> 
-> September 15th, 2018
-
-
-> Bryant Lake Regional Park 
-> 
-> 6800 Rowland Road Eden Prairie, MN 55344 
 
 ---
 

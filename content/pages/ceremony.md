@@ -6,7 +6,7 @@ Authors: Kate
 Summary: Where to find the wedding ceremony, and what to expect.
 
 
-The wedding ceremony will be held at [St. Mark's Episcopal Cathedral](http://ourcathedral.org), Kate and Elena's home church. The Rev. Siri Hauge Hustad, a long time friend of Kate's, will be officiating. 
+The wedding ceremony will be held at [St. Mark's Episcopal Cathedral](http://ourcathedral.org), Kate and Elena's home church. 
 
 <!-- MarkdownTOC -->
 
@@ -21,14 +21,6 @@ The wedding ceremony will be held at [St. Mark's Episcopal Cathedral](http://our
 
 To enter the Cathedral, you can go up the stairs to enter the front of the Cathedral through the big main doors that face Oak Grove Street and Loring Park. Alternatively, you can enter through the office door on the east side of the building, off the parking lot and facing out to Oak Grove Street and Loring Park. This entry has many fewer stairs!
 
-> 11:30 AM Central Time
-> 
-> September 15th, 2018
-
-
-> St. Mark's Episcopal Cathedral
-> 
-> 519 Oak Grove Street, Minneapolis, MN 55403
 
 ---
 
