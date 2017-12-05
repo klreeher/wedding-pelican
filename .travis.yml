@@ -20,6 +20,6 @@ deploy:
 
 
 after_success:
-      "curl -u $FTP_USER:$FTP_PASSWORD -T uploadfilename sftp://45.56.100.117/var/www/html/wedding.reeher-palmer.net/public_html"
+      "curl -u $FTP_USER:$FTP_PASSWORD -T index.html sftp://45.56.100.117/var/www/html/wedding.reeher-palmer.net/public_html"
 
 #    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile"
