@@ -25,7 +25,7 @@ deploy:
   skip_cleanup: true
   script: rsync -r --verbose $TRAVIS_BUILD_DIR/output/ $FTP_USER@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html
   on:
-    branch: gh-pages
+    branch: dev
 
 after_success:
   
