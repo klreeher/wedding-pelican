@@ -23,7 +23,8 @@ THEME = 'pelican-themes/graymill'
 # Site Info
 AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
-SITEURL = 'www.wedding.reeher-palmer.net'
+SITEURL = 'http://localhost:8000'
+#SITEURL = 'www.wedding.reeher-palmer.net'
 #SITETAGLINE = 'Join Us September 15, 2018'
 
 
@@ -46,11 +47,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # theme
+# To display static pages like About, Contact etc.
 DISPLAY_PAGES_ON_MENU = True
 
-DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = (('Home', SITEURL), ('About Us', 'pages/about-us.html'), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'))
+
+
 DISPLAY_SUMMARY = True
-STATIC_PATHS = ['images']
+# To include custom static files like htaccess, robots, PDF files etc. (path relative to './content/')
+STATIC_PATHS = ['images', 'extras']
+EXTRA_PATH_METADATA = {
+    'extras/.htaccess': {'path': '.htaccess'},
+    'extras/robots.txt': {'path': 'robots.txt'},
+}
 DEFAULT_PAGINATION = 5
 
 MAIL = 'wedding@reeher-palmer.net'
@@ -60,4 +69,4 @@ COPYRIGHT = 'Copyright 2017 Reeher-Palmer'
 SHOW_COPYRIGHT = True
 
 # Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
+RELATIVE_URLS = True

@@ -1,14 +1,20 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from import_file import import_file
+
+pelicanconf = import_file('pelicanconf.py')
+
+from pelicanconf import *
 
 # This file is only used if you use `make publish` or
 # explicitly specify it as your config file.
 
 import os
 import sys
+
 sys.path.append(os.curdir)
-from pelicanconf import *
+
 
 SITEURL = 'wedding.reeher-palmer.net'
 RELATIVE_URLS = True
