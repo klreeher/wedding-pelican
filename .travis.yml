@@ -5,8 +5,14 @@ cache: pip
 install:
 - pip install --upgrade pip
 - pip install -r requirements.txt
+addons:
+  ssh_known_hosts:
+  - 45.56.100.117
+
 script:
 - make publish
+=======
+- pelican -s publishconf.py content
 
 sudo: required
 
@@ -40,3 +46,7 @@ after_success:
 #      "rsync -rovc -u $FTP_USER:$FTP_PASSWORD /home/travis/build/klreeher/wedding-pelican/content/ deploy@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html"
 
 #    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile"
+
+
+
+>>>>>>> 2e10c2e7f23673d6b357febeca86bb4eceba2065

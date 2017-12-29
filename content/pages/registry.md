@@ -1,7 +1,7 @@
 Title: Wedding Registry
 Category: 
 Tags: 
-Slug: wedding-registry
+Slug: registry
 Authors: Kate
 Summary: Information about where to find our wedding registry.
 Picture:  

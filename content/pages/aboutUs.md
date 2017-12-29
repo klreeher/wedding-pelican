@@ -1,3 +1,4 @@
+---
 Title: About Us
 Category: 
 Tags: 
@@ -5,7 +6,8 @@ Slug: about-us
 Authors: Kate
 Summary: A quick bit about Kate & Elena
 Picture: 
-Status: hidden
+Status: Hidden
+---
 
 ![pic of me](http://via.placeholder.com/300x300)
 # Katherine Louise Reeher
