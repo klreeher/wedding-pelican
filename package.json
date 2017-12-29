@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/klreeher/wedding-pelican/issues"
   },
-  "homepage": "https://github.com/klreeher/wedding-pelican#readme"
+  "homepage": "https://github.com/klreeher/wedding-pelican#readme",
+  "dependencies": {}
 }

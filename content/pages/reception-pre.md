@@ -1,7 +1,7 @@
 Title: Wedding Reception
 Category: 
 Tags: 
-Slug: reception
+Slug: reception-pre
 Authors: Kate
 Summary: Where to find the reception, and what to expect.
 

@@ -15,7 +15,6 @@ script:
 
 sudo: required
 
-dist: trusty
 deploy:
   provider: pages
   skip_cleanup: true

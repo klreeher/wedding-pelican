@@ -1,7 +1,7 @@
 Title: Wedding Ceremony 
 Category: 
 Tags: 
-Slug: ceremony
+Slug: ceremony-hide
 Authors: Kate
 Summary: Where to find the wedding ceremony, and what to expect.
 Status: Hidden
