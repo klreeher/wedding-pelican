@@ -7,6 +7,10 @@ install:
 - pip install -r requirements.txt
 script:
 - make publish
+
+sudo: required
+
+dist: trusty
 deploy:
   provider: pages
   skip_cleanup: true
@@ -16,10 +20,23 @@ deploy:
   on:
     branch: dev
 
-
-
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --verbose $TRAVIS_BUILD_DIR/output/ $FTP_USER@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html
+  on:
+    branch: dev
 
 after_success:
-      "curl -u $FTP_USER:$FTP_PASSWORD -T index.html sftp://45.56.100.117/var/www/html/wedding.reeher-palmer.net/public_html"
+  
+
+ 
+
+#      "curl -u $FTP_USER:$FTP_PASSWORD -T /home/travis/build/klreeher/wedding-pelican/content sftp://45.56.100.117/ --verbose"
+
+#    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile"
+
+
+#      "rsync -rovc -u $FTP_USER:$FTP_PASSWORD /home/travis/build/klreeher/wedding-pelican/content/ deploy@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html"
 
 #    "curl --ftp-create-dirs -T uploadfilename -u $FTP_USER:$FTP_PASSWORD ftp://sitename.com/directory/myfile"
