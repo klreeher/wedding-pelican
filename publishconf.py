@@ -12,8 +12,10 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 
-SITEURL = 'wedding.reeher-palmer.net'
+SITEURL = 'http://wedding.reeher-palmer.net'
 RELATIVE_URLS = True
+#MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
+
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'

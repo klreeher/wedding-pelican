@@ -1,7 +1,7 @@
 Title: Wedding Reception
 Category: 
 Tags: 
-Slug: reception
+Slug: reception-hide
 Authors: Kate
 Summary: Where to find the reception, and what to expect.
 Status: Hidden

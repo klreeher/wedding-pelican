@@ -1,26 +1,24 @@
 Title: Wedding Reception
 Category: 
 Tags: 
-Slug: reception-pre
+Slug: reception
 Authors: Kate
 Summary: Where to find the reception, and what to expect.
 
 
-# Reception 
+## Reception 
 
 The reception will follow the wedding ceremony at [Bryant Lake Regional Park](https://threeriversparks.org/location/bryant-lake-regional-park).
 
 <!-- MarkdownTOC -->
 
-- [Reception Time & Location](#reception-time--location)
+- [Reception Location](#reception-location)
 - [Menu](#menu)
 
 <!-- /MarkdownTOC -->
 
-<a name="reception-time--location"></a>
-
-<a name="reception-time--location"></a>
-## Reception Time & Location
+<a name="reception-location"></a>
+### Reception Location
 
 ---
 
@@ -35,7 +33,7 @@ There is a restroom available at the pavilion.
 
 
 <a name="menu"></a>
-## Menu
+### Menu
 
 The menu is not yet set, but **there will** be vegan, vegetarian, and gluten-free dining options. These options will also not just be a side salad! 
 

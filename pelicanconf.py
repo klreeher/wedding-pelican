@@ -35,6 +35,11 @@ AUTHOR_PAGE_PATH = 'authors'
 CATEGORY_PAGE_PATH = 'categories'
 TAG_PAGE_PATH = 'tags'
 
+WITH_FUTURE_DATES = False
+
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
+DRAFT_URL = 'drafts/{slug}.html'
+
 ## Filetime From Git
 
 GIT_FILETIME_FROM_GIT = True
@@ -48,9 +53,9 @@ AUTHOR_FEED_RSS = None
 
 # theme
 # To display static pages like About, Contact etc.
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_NAV = True
 
-MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
+#MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
 
 #, ('About Us', 'pages/about-us.html')
 
