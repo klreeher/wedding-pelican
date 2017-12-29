@@ -67,7 +67,7 @@ MAIL = 'wedding@reeher-palmer.net'
 DIRECT_TEMPLATES = ['index']
 
 COPYRIGHT = 'Copyright 2017 Reeher-Palmer'
-SHOW_COPYRIGHT = True
+SHOW_COPYRIGHT = False
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
