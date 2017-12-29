@@ -10,7 +10,7 @@ addons:
   - 45.56.100.117
 
 script:
-- pelican -s publishconf.py content
+- make publish
 
 sudo: required
 
