@@ -14,7 +14,7 @@ from pelicanconf import *
 
 SITEURL = 'http://wedding.reeher-palmer.net'
 RELATIVE_URLS = True
-#MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
+MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
 
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
