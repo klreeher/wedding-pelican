@@ -54,6 +54,7 @@ AUTHOR_FEED_RSS = None
 # theme
 # To display static pages like About, Contact etc.
 DISPLAY_PAGES_ON_NAV = True
+DISPLAY_CATEGORIES_ON_MENU = False
 
 #MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
 
@@ -71,8 +72,8 @@ DEFAULT_PAGINATION = 5
 MAIL = 'wedding@reeher-palmer.net'
 DIRECT_TEMPLATES = ['index']
 
-COPYRIGHT = 'Copyright 2017 Reeher-Palmer'
-SHOW_COPYRIGHT = False
+COPYRIGHT = '<a href="mailto:wedding@reeher-palmer.net?Subject=Reeher-Palmer%20Wedding" target="_top">Reeher-Palmer</a> 2018'
+SHOW_COPYRIGHT = True
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
