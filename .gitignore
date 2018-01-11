@@ -1,1 +1,5 @@
 .pyc
+
+/pelican-themes/*
+
+!/pelican-themes/soMA2/*/*

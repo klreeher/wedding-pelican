@@ -17,7 +17,7 @@ PLUGINS = [
 ]
 
 # THEME
-THEME = 'pelican-themes/graymill'
+THEME = 'pelican-themes/soma2'
 # basic, bootlex, cebong, graymill, monospace,
 
 # Site Info
@@ -25,7 +25,7 @@ AUTHOR = u'Kate'
 SITENAME = u'Reeher-Palmer Wedding'
 SITEURL = 'http://localhost:8000'
 #SITEURL = 'www.wedding.reeher-palmer.net'
-#SITETAGLINE = 'Join Us September 15, 2018'
+SITETAGLINE = 'Join Us September 15, 2018'
 
 
 # PLUGIN CONFIG

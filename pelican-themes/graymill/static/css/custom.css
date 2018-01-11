@@ -1,55 +1,15 @@
 body {
     background-color: #ffffff;
-    font-size: 24px;
-    color: #08415c;
-    font-family: Helvetica, Georgia, Serif;
-}
-
-footer {
-    margin-top: 2em;
-    background-color: #08415c;
-    box-sizing: auto;
-
-}
-
-copyright {
-    display: inherit;
-    color: #d2d7d3;
-    text-align: center;
-    box-sizing: content-box;
-    margin: auto;
-    width: 80%;
-    padding: 1em;
-}
-
-copyright a {
-    color: #7fb069;
+    font-size: 1.5rem;
 }
 
 a {
-    color: #434c55;
+    color: #6C7A89;
     text-decoration: none;
 }
 
-h1 {
-  color: #7fb069;
-  text-transform: capitalize; 
-  text-align: center;
-}
-
-h2 {
-  color: #7fb069;
-  text-transform: uppercase; 
-}
-
-h3 {
-  color: #7fb069;
-  text-transform: capitalize; 
-}
-
 .navbar {
-    margin-bottom: .5em;
-    background-color: #08415c;
+    margin-bottom: 10px;
 }
 
 .navbar ul {
@@ -68,7 +28,7 @@ h3 {
 
 .navbar li a {
     display: block;
-    color: #d2d7d3;
+    color: #6C7A89;
     text-align: center;
     text-decoration: none;
 }
@@ -91,79 +51,60 @@ h3 {
 }
 
 sidebar {
-    font-size: 1em;
-    position: inherit;
+    font-size: 1.25em;
+    width: 15%; 
     height: 100%;
-    padding: 1%;
+    position: fixed;
+    right: 0;
+    padding: 2%;
     text-align: center;
     background-size: cover;
-    box-sizing: border-box;
-
 }
 
 sidebar > ul {
-    border: 2px solid #d2d7d3;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding: 0px 10px;
+    margin-top: 0px;
 }
 
 .static-item {
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .cat-border {
+    border: 2px solid #6C7A89;
     text-transform: uppercase;
-    display: none;
-    visibility: hidden;
 }
 
 .cat-border a:focus,
 .cat-border a:hover {
-    display: none;
-    visibility: hidden;
-}
-
-sidebar > ul > li{
-  display:inline;
-  padding: 1%;
+    color: #F2F1EF;
+    background-color: #6C7A89;
+    padding: 1%;
 }
 
 sidebar > ul > li > a:hover,
 sidebar > ul > li > a:focus {
-    color: #08415c;
-    background-color: #d2d7d3;
+    color: #F2F1EF;
+    background-color: #6C7A89;
     padding: 1%;
 }
 
 sidebar > h2 {
-    font-size: larger;
+    font-size: 15px;
     margin-bottom: 5px;
     padding-bottom: 3%;
 }
 
 maincontent {
-    display: inherit;
+    display: block;
     line-height: 1.6em;
-    box-sizing: content-box;
-    width: 100%;
-}
-
-maincontent > h3 {
-    font-size: larger;
-    margin-bottom: 5px;
-    padding-bottom: 3%;
-    color: #6b0504;
+    width: 85%;
 }
 
 maincontent > ol {
     list-style-type: none;
-}
-
-maincontent > a {
-  color: #d47500;
 }
 
 mainarticle ul {
@@ -201,7 +142,7 @@ maincontent table tbody tr td .highlight {
 }
 
 hr {
-    border-top: 0.3rem double #08415c;
+    border-top: 0.3rem double #6C7A89;
 }
 
 pre {
@@ -223,9 +164,7 @@ ul {
 }
 
 .social-icons-m {
-    max-width: 3%;
-    width: 2%;
-    margin: auto;
+    max-width: 20%;
 }
 
 .pagination-dir {
@@ -233,10 +172,101 @@ ul {
     margin-top: 2%;
 }
 
-.static-page-urls a{
-    background: #f4f5f6; 
-    font-weight: bold; 
-    font-style: italic; 
-    color: #08415c; 
-    text-decoration: none;
+@media (max-width: 40.0rem) {
+
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navbar li {
+    float: none;
+    padding: initial;
+    text-align: center
+  }
+  
+  .navbar li h6 {
+    line-height: initial;
+    font-size: 0.75em;
+    letter-spacing: 0;
+  }
+
+  sidebar {
+    right: 0;
+    max-width: none;
+    position: fixed;
+    width: 25%;
+    padding: 0;
+    padding-top: 1px;
+    font-size: 8px;
+  }
+
+  maincontent {
+    width: 75%;
+    font-size: 10px;
+  }
+
+  maincontent h2 {
+    font-size: 2rem;
+  }
+
+  maincontent h5 {
+    font-size: 1.4rem;
+  }
+    
+  mainarticle ul li p {
+    padding-left: 5%;
+    margin-top: -6%;
+  }
+
+  .social-icons-a {
+    max-width: 10%;
+  }
+}
+
+@media (min-width: 41.0rem) and (max-width: 80.0rem){
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navbar li {
+    float: none;
+    padding: initial;
+    text-align: center
+  }
+
+  .navbar li h6 {
+    line-height: initial;
+    font-size: 0.75em;
+    letter-spacing: 0;
+  }
+
+  sidebar {
+    right: 0;
+    max-width: none;
+    position: fixed;
+    width: 15%;
+    padding: 0;
+    padding-top: 1px;
+    font-size: 8px;
+  }
+
+  maincontent {
+    width: 85%;
+    font-size: 10px;
+  }
+
+  maincontent h2 {
+    font-size: 2rem;
+  }
+
+  maincontent h5 {
+    font-size: 1.4rem;
+  }
+
+  mainarticle ul li p {
+    padding-left: 5%;
+    margin-top: -2%;
+  }
 }
