@@ -17,7 +17,7 @@ PLUGINS = [
 ]
 
 # THEME
-THEME = 'pelican-themes/soma2'
+THEME = 'SoMA2'
 # basic, bootlex, cebong, graymill, monospace,
 
 # Site Info

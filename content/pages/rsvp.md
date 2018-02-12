@@ -5,6 +5,7 @@ Tags:
 Slug: rsvp
 Authors: Kate
 Summary: RSVP for the Reeher-Palmer wedding!
+Status: hidden
 Picture:  
 ---
 
