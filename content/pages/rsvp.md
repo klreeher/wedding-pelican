@@ -1,11 +1,14 @@
+---
 Title: RSVP
-Category: 
-Tags: 
+Category:
+Tags:
 Slug: rsvp
 Authors: Kate
-Summary: RSVP here!
-Picture: /images/rsvp.jpg
-Status: hidden
+Summary: RSVP for the Reeher-Palmer wedding!
+Status: published
+Picture:
+---
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSek4_OZS3UCJ67iF6ce9A3x7ovW25MV8PsAQvlcAk45su2CmQ/viewform?embedded=true" width=100% height=800px frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<div class="form">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmPAQfEd55-4_X_QRZab5AqBK7VdbUbBwuD9cenYZhzMAKEw/viewform?embedded=true" width=100% height=500px frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>

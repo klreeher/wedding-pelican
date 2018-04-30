@@ -10,8 +10,7 @@ addons:
   - 45.56.100.117
 
 script:
-- make publishconf
-- pelican -s publishconf.py content
+- make publish
 
 sudo: required
 
@@ -27,7 +26,7 @@ deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --verbose $TRAVIS_BUILD_DIR/output/ $FTP_USER@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html
+  script: rsync -r --verbose StrictHostKeyChecking=no $TRAVIS_BUILD_DIR/output/ $FTP_USER@wedding.reeher-palmer.net:var/www/html/wedding.reeher-palmer.net/public_html
   on:
     branch: dev
 
