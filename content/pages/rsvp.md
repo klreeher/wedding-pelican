@@ -1,12 +1,12 @@
 ---
 Title: RSVP
-Category: 
-Tags: 
+Category:
+Tags:
 Slug: rsvp
 Authors: Kate
 Summary: RSVP for the Reeher-Palmer wedding!
-Status: hidden
-Picture:  
+Status: published
+Picture:
 ---
 
 <div class="form">

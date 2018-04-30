@@ -7,21 +7,25 @@ DEFAULT_DATE_FORMAT = '%a %d %B %Y'
 PATH = 'content'
 DEFAULT_LANG = u'en'
 
-PLUGIN_PATHS = ['pelican-plugins']
+PLUGIN_PATHS = ['pelican-plugins', '/pelican/pelican-plugins']
 PLUGINS = [
         #'google_embed',
         'assets',
         'autopages',
         'filetime_from_git',
+        'i18n_subsites',
+        'tipue_search',
         #'pelican-page-order'
 ]
 
 # THEME
-THEME = 'SoMA2'
+THEME = 'pelican-bootstrap3'
 # basic, bootlex, cebong, graymill, monospace,
 
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+
 # Site Info
-AUTHOR = u'Kate'
+AUTHOR = u'K.L.Reeher & C.E.Palmer'
 SITENAME = u'Reeher-Palmer Wedding'
 SITEURL = 'http://localhost:8000'
 #SITEURL = 'www.wedding.reeher-palmer.net'
@@ -53,8 +57,18 @@ AUTHOR_FEED_RSS = None
 
 # theme
 # To display static pages like About, Contact etc.
-DISPLAY_PAGES_ON_NAV = True
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = [('ceremony', '/pages/ceremony.html' ),('reception', '/pages/reception.html'),('rsvp', '/pages/rsvp.html')]
 DISPLAY_CATEGORIES_ON_MENU = False
+FAVICON = ''
+DISPLAY_ARTICLE_INFO_ON_INDEX = False
+PADDED_SINGLE_COLUMN_STYLE = True
+HIDE_SIDEBAR = True
+DIRECT_TEMPLATES = ('index', 'categories', 'authors', 'archives', 'search')
+BOOTSTRAP_FLUID = True
+PYGMENTS_STYLE = 'vim'
+BOOTSTRAP_NAVBAR_INVERSE = True
+
 
 #MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
 
@@ -70,7 +84,7 @@ EXTRA_PATH_METADATA = {
 DEFAULT_PAGINATION = 5
 
 MAIL = 'wedding@reeher-palmer.net'
-DIRECT_TEMPLATES = ['index']
+
 
 COPYRIGHT = '<a href="mailto:wedding@reeher-palmer.net?Subject=Reeher-Palmer%20Wedding" target="_top">Reeher-Palmer</a> 2018'
 SHOW_COPYRIGHT = True

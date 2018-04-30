@@ -13,7 +13,7 @@ from pelicanconf import *
 
 
 SITEURL = 'http://wedding.reeher-palmer.net'
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 #MENUITEMS = (('Home', SITEURL), ('Wedding Ceremony', SITEURL+'/pages/ceremony.html'), ('Wedding Reception', SITEURL+'/pages/reception.html'), ('Wedding Registry', SITEURL+'/pages/registry.html'))
 
 
